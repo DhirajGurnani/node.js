@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<body>
+
+<div align="center">
+
+
+
+
+<form>
+  <%if(typeof data!='undefined'){%>
+
+
+ <h1><label>Answer:
+<%= data%>
+</label></h1> </br>
+ 
+      <% } else {       %>
+
+  <h1> <b><label>Answer:<%=opp%></label></b></h1> </br>
+
+  <%
+  }
+  %>
+  <input type = "submit">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+Customers:
+Customer ID [SSN Format]
+? First Name
+? Last Name
+? Address
+? City
+? State
+? Zip Code
+? Phone number
+? Email
+? Credit Card details
+? Purchase History
+
+
+
+roles:
+Create a new Customer.
+1Sign up as customer
+
+First Name
+? Last Name
+? Address
+? City
+? State
+? Zip Code
+? Phone number
+? Email
+
+
+2login as customer
+
+· Delete an existing Customer
+delete a customer(button)
+
+· List all Customers known by the system
+3 Listing all the customers
+
+8 Showing all the products available for the sale
+
+Shopping cart:
+? Credit Card details
+? Purchase History
+
+· Generate Bill for a Customer (Every Ride).
+4 generating a bill every time
+7 purchase history
+·Select delivery time and date
+5 selecting delivery dat ane time
+
+Post reviews and ratings (reviews may contain images and videos)
+6 posting reviews

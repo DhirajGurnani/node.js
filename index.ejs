@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<body>
+
+
+
+<div align="center">
+
+
+
+<form  action="/operation" method="get">
+  <%if(typeof data!='undefined'){%>
+
+ <h1><label>Answer:<%= data%></label></h1> </br>
+       <% }
+
+
+
+       else
+         {
+           %>
+  <h1> <b><label>Answer:<%=opp%></label></b></h1> </br>
+  <%
+  }
+  %>
+Op1:<input type="number" name="op1"  required/>
+Op2:<input type="number" name="op2" required/><br/><br/>
+
+  <input type="radio" name="op" value="add" required>Add<br/><br/>
+  <input type="radio" name="op" value="sub">Sub<br/><br/>
+  <input type="radio" name="op" value="mul">Mul<br/><br/>
+  <input type="radio" name="op" value="div">Div<br/><br/>
+
+  <input type="submit"/><button type="reset" value="reset">Reset</button>
+
+
+</form>
+</div>
+</body>
+</html>
